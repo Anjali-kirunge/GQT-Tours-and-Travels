@@ -37,7 +37,9 @@ This project is a **responsive Tours and Travels website UI** built using HTML, 
 2. Open `index.html` in your browser
 
 ## 📸 Preview
-*(Add screenshots or screen recording here for better presentation)*
+<img width="1920" height="1020" alt="Screenshot 2026-04-05 184950" src="https://github.com/user-attachments/assets/74e96c2a-fe0b-438f-8710-a1bdbc67aabd" />
+
+
 
 ## 💡 Future Improvements
 - Add booking functionality with backend
