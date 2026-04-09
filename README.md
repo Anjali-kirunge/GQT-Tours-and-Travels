@@ -37,7 +37,8 @@ This project is a **responsive Tours and Travels website UI** built using HTML, 
 2. Open `index.html` in your browser
 
 ## 📸 Preview
-<img width="1920" height="1020" alt="Screenshot 2026-04-05 184950" src="https://github.com/user-attachments/assets/74e96c2a-fe0b-438f-8710-a1bdbc67aabd" />
+<img width="1763" height="5224" alt="image" src="https://github.com/user-attachments/assets/6122ea46-9652-4a3a-bdd4-1d1430d2b4bb" />
+
 
 
 
