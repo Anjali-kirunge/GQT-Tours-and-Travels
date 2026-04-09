@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tour and Travel Mini Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+.container-1 {
+    background-color: #000; /* optional */
+}
+
+.scroll-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 12s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+</style>
+</head>
+<body>
+  <!-- Modern marquee using CSS -->
+<div class="container-1 text-white py-2 overflow-hidden">
+    <div class="scroll-text">
+        Hurry Up!! Kumara Parvatha trekking has been organized this weekend by GQT Tours and Travels!!
+        Contact 786545789 for more details.. only few seats left.. You can also chat with us through 
+        WhatsApp number 987456788..
+    </div>
+</div>
+<!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-3" href="#">
+                <i class="fa-solid fa-plane-departure fa-lg text-white pe-2"></i>
+                GQT Tours and Travels
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#simple-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="simple-navbar">
+                <ul class="navbar-nav  ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#search">Search</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#dest">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- image slider-->
+    <div id="img-slider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#img-slider" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#img-slider" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#img-slider" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.pixels.com/images-medium-large-5/hello-horseshoe-jason-l-stephens.jpg"class="d-block w-100" alt="Image not available"class="image-fluid">
+                <div class="carousel-caption">
+                    <h1 class="display-4">Feel the Soul</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti enim iusto quisquam blanditiis harum! Nisi nam error ea? Placeat delectus, expedita quasi dicta doloribus temporibus minima aperiam nobis culpa molestias?.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pixels.com/images/artworkimages/mediumlarge/2/16-miami-florida-usa-downtown-skyline-sean-pavone.jpg" class="d-block w-100" alt="Image not available"class="image-fluid">
+                <div class="carousel-caption">
+                    <h1 class="display-4">Ultimate Destinations</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga molestias beatae! Est voluptatem minima tempore nobis laboriosam eum libero, perferendis omnis, aspernatur excepturi mollitia assumenda, blanditiis impedit quisquam cum.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pixels.com/images/artworkimages/mediumlarge/1/horsetail-falls-in-queenstown-tasmania-jorgo-photography-wall-art-gallery.jpg" class="d-block w-100" alt="Image not available">
+                
+                <div class="carousel-caption">
+                    <h1 class="display-4">Thrilling Candle Light Dinner</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores obcaecati possimus quae porro totam officia, tempora accusantium autem expedita consequuntur inventore! Illum eum voluptatem rerum, repellendus in quo neque?.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#img-slider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#img-slider" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- search-->
+
+    <section id="search" class="container2 py-6 justify-content-center">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="display-4 text-warning">Search Your Destination</h2>
+                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto sunt, minus incidunt sit corporis consequuntur aliquid accusamus voluptatem, maiores neque eius amet ea ab laudantium. Quod ea officia laboriosam minus?</p>
+                <div class="row justify-content-center ">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="input-group">
+                                <input type="search" class="form-control form-control-lg" placeholder="Search here for your favorite destination">
+                                <span class="input-group-text">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass fa-lg text-secondary"></i></a>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- create location cards-->
+
+    <section class="container3 py-7">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center mb-3 bg-light p-3">
+                    <div class="card-body">
+                        <i class="fa-solid fa-location-arrow fa-4x text-info mb-3"></i>
+                        <h2 class="text-primary">Pick Location</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum aliquam rem commodi nam fugit voluptatum voluptate. Quisquam cumque consequuntur sit, eveniet adipisci corrupti inventore deserunt delectus facilis, nihil odit sint?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-3 bg-light p-3">
+                    <div class="card-body">
+                        <i class="fa-solid fa-building fa-4x text-info mb-3"></i>
+                        <h2 class="text-primary">Select Mode</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam pariatur, reiciendis amet dolores inventore, perferendis, magnam id dignissimos tempora harum hic illo architecto necessitatibus! Non molestiae aliquid provident maiores porro?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-3 bg-light p-3">
+                    <div class="card-body">
+                        <i class="fa-solid fa-plane-departure fa-4x text-info mb-3"></i>
+                        <h2 class="text-primary">Get Ready to Fly</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis iure vel ipsam aspernatur magni. Iste mollitia quod dicta veritatis, quos, asperiores beatae dolorum impedit molestias eius est ratione quas praesentium?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- create popular places -->
+
+    <section id="dest" class="container4 py-5">
+        <div class="text-center mb-5">
+            <h2 class="display-4"><span class="text-success">Popular</span> <span class="text-primary">Destinations</span></h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem modi inventore fugiat omnis sunt recusandae dolore! Temporibus illum voluptatum fugit sapiente rem non et eos, exercitationem possimus mollitia dolorum deserunt.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mt-3">
+                    <img src="https://etimg.etb2bimg.com/photo/99256039.cms" class="card-img-top" height="300px" alt="Image not available">
+                    <div class="card-body">
+                        <h3 class="card-title">Himachal Pradesh</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quod porro soluta similique cumque voluptatibus, alias qui maiores obcaecati accusantium corrupti saepe quae voluptates illum repellendus mollitia quia perspiciatis iste!</p>
+                        <button class="btn btn-success btn-sm">Read More >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mt-3">
+                    <img src="https://imgcld.yatra.com/ytimages/image/upload/v1517480778/AdvNation/ANN_DES95/ann_top_Ladakh_buV00Q.jpg" class="card-img-top" height="300px" alt="Image not available">
+                    <div class="card-body">
+                        <h3 class="card-title">Lovely Ladakh</h3>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel saepe corporis incidunt dolore, magnam est maxime laboriosam asperiores cumque nemo doloremque illo, ipsam sapiente fugit autem, officiis facere quis omnis!.</p>
+                        <button class="btn btn-success btn-sm">Read More >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mt-3">
+                    <img src="https://s7ap1.scene7.com/is/image/incredibleindia/the-mall-road-shimla-himachal-pradesh-3-attr-hero?qlt=82&ts=1742177571287" class="card-img-top" height="300px" alt="Image not available">
+                    <div class="card-body">
+                        <h3 class="card-title">Silent Shimla</h3>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga dolore totam minima laborum in itaque inventore, facere, iusto, voluptates aut voluptas odit rerum alias mollitia. Debitis expedita incidunt aperiam corporis!</p>
+                        <button class="btn btn-success btn-sm">Read More >></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <button class="btn btn-dark btn-lg"><i class="fa fa-play me-2"></i>Start Booking</button>
+        </div>
+    </section>
+<!-- creating social media icons-->
+    <section class="container-5 text-center bg-light p-5">
+        <h1 class="text-primary">Follow GQT Tours and Travels</h1>
+        <p class="text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, non repudiandae amet aperiam excepturi, itaque corporis quo voluptatem nulla cumque ut corrupti recusandae sunt dolorum fuga? Assumenda illo quibusdam eaque!</p>
+        <div class="d-flex justify-content-center">
+            <i class="fab fa-instagram fa-4x text-danger m-3"></i>
+            <i class="fab fa-facebook-square fa-4x text-primary m-3"></i>
+            <i class="fab fa-youtube fa-4x text-danger m-3"></i>
+            <i class="fa-brands fa-square-x-twitter fa-4x m-3"></i>
+            <i class="fab fa-google-plus-square fa-4x text-danger m-3"></i>
+        </div>
+    </section>
+
+    <!-- craeting gallery section -->
+
+    <section id="gallery" class="container py-5">
+        <div class="text-center mb-4">
+            <h5 class="display-4"><span class="text-warning">Photo</span> <span class="text-primary">Gallery</span></h5>
+            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, a hic. Similique impedit beatae provident. At incidunt aliquam eum alias facere, voluptates voluptatum doloribus, debitis, corrupti adipisci placeat atque possimus.</p>
+        </div>
+        <div class="row g-3">
+            <div class="col-md-3"><img src="https://images.pixels.com/images/artworkimages/mediumlarge/1/san-antonio-riverwalk-a-place-for-love-gregory-ballos.jpg" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://images.pixels.com/images/artworkimages/mediumlarge/1/silver-linings-az-jackson.jpg" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://images.pixels.com/images/artworkimages/mediumlarge/3/plaza-de-espana-manjik-pictures.jpg" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://images.pixels.com/images/artworkimages/mediumlarge/2/vestrahorn-mountains-at-stokksnes-beach-ci2.jpg" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://images.pixels.com/images/artworkimages/mediumlarge/3/premium-impressive-summer-sunrise-on-eibsee-lake-with-zugspitze-mountain-range-sunny-outdoor-scene-in-german-alps-bavaria-germany-europe-beauty-of-nature-concept-background-n-akkash.jpg" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://images.pixels.com/images/artworkimages/mediumlarge/2/europe-greece-santorini-travel-levente-bodo.jpg" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://images.pixels.com/images/artworkimages/mediumlarge/2/2-geirangerfjord-norway-aerial-view-ryhor-bruyeu.jpg" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://www.caleidoscope.in/wp-content/uploads/2021/05/Historical-Places-in-Karnataka-Virupakshas-Temple.jpg" class="img-fluid" alt="Image not available"></div>
+           <div class="col-md-3"><img src="https://images.pixels.com/images-medium-large/kealakekua-bay-karin-leonard.jpg" class="img-fluid" alt="Image not available"></div>
+          <div class="col-md-3">
+          <img src="https://images.pixels.com/images/artworkimages/mediumlarge/3/plaza-de-espana-in-seville-delphimages-photo-creations.jpg" class="img-fluid" alt="Image not available">
+         </div>
+          <div class="col-md-3">
+          <img src="https://images.pixels.com/images/artworkimages/mediumlarge/2/five-storied-pagoda-with-japan-cherry-prasit-rodphan.jpg" class="img-fluid" alt="Image not available">
+         </div>
+         <div class="col-md-3">
+          <img src="https://tse1.mm.bing.net/th/id/OIP.hNLbhT-3QRY5tlJqKqYCEQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" class="img-fluid" alt="Image not available">
+         </div>
+   </div>
+    </section>
+
+    <!-- creating contact section-->
+<section id="contact" class="p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mt-3">
+                    <div class="card-body bg-info text-center text-white">
+                        <i class="fa fa-envelope fa-4x"></i>
+                        <h2>Contact us for Bookings</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus explicabo aperiam tenetur odio sit. Rerum, magni nulla odit numquam corrupti velit odio ex, cum, modi quibusdam cupiditate facilis labore ratione.</p>
+                    </div>
+                </div>
+                <ul class="list-group mt-3">
+                    <li class="list-group-item">
+                        <h3>Location</h3>
+                    </li>
+                    <li class="list-group-item">GQT Tours and Travels</li>
+                    <li class="list-group-item">Yelahanka New Town, Bangalore</li>
+                    <li class="list-group-item">Karnataka, India</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card mt-3">
+                    <div class="card-header bg-info text-white text-center">
+                        <h3>Contact Us</h3>
+                    </div>
+                    <div class="card-body bg-light">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Enter Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Enter Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" placeholder="Enter Your Phone Number">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Enter preferred destination">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" placeholder="Share More Details"></textarea>
+                            </div>
+                            <div class="d-grid gap-2 mt-2">
+                                <button type="submit" class="btn btn-outline-info px-5">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- locate us on google map-->
+
+<section>
+    <div class="m-2">
+        <p class="h2 text-danger m-2">Locate us on Google Map</p>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.005977982686!2d77.58328777367385!3d13.098807512079407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1920f50b395f%3A0x50fe874d0ef4b524!2sGlobal%20Quest%20Technologies!5e0!3m2!1sen!2sin!4v1774422432173!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+    </div>
+</section>
+
+<footer class="p-3 mt-3 bg-secondary text-white text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Copyright &copy; 2025, GQT Tours and Travels</h3>
+                <h6>All Rights Reserved</h6>
+                <h6>Developed & Maintained by Global Quest Technologies</h6>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
